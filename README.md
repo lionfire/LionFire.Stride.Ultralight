@@ -1,6 +1,6 @@
 # LionFire.Stride
 
-I have .NET 5.0 + Blazor Server + Ultralig.ht working inside Stride (stride3d.net) game engine on Windows.  This repo doesn't have a complete working example (feel free to create one) but contains some key files.
+I have .NET 5.0 + Blazor Server + Ultralig.ht working inside Stride (stride3d.net) game engine on Windows.  This repo doesn't have a complete working example (feel free to create one) but contains some key files and this README refers you to more detailed info.
 
 Working:
  - Transparency

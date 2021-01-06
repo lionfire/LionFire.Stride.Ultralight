@@ -21,25 +21,26 @@ TODO:
 
 ## Stride + Ultralig.ht integration
 
-Based off of: https://github.com/makotech222/Ultralight-Stride3d_Integration
+Based off of this repo -- refer to it for instructions: https://github.com/makotech222/Ultralight-Stride3d_Integration
+
+Here's my customized C# file that supports Microsoft.Extensions.Logging and Mouse Input:  [UltralightUIScript.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/StrideGame.Game/Code/UltralightUIScript.cs)
 
 ## Stride UI fix
 
 By default, as of now, Stride's postproessing effects are applied to the UI, which makes it look bad.
-
 Refer to here for the full scoop: https://github.com/herocrab/StrideCleanUI
 
 In short:
 
  1. Set UI to render to group 31
- 2. Rework your compositor (I included my file FWIW: GraphicsCompositor.sdgfxcomp)
+ 2. Rework your compositor (I included my compositor asset FWIW: GraphicsCompositor.sdgfxcomp)
 
 ## Hosting ASP.NET Core (Blazor Server) alongside Stride
 
-See StrideGameService.cs
+See [StrideGameService.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/LionFire.Hosting.Stride/StrideGameService.cs)
 
  1. Create an ASP.NET Core application (.NET 5.0)
- 2. In your ConfigureServices(IServicesCollection services) method, do  services.AddHostedService<StrideGameService>();
+ 2. In your ConfigureServices(IServicesCollection services) method, do services.AddHostedService<StrideGameService>();
 
 A more up to date copy of StrideGameService.cs may be here: 
 https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/StrideGameService.cs

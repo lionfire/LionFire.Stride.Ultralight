@@ -42,7 +42,7 @@ In short:
 See [StrideGameService.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/LionFire.Hosting.Stride/StrideGameService.cs)
 
  1. Create an ASP.NET Core application (.NET 5.0)
- 2. In your ConfigureServices(IServicesCollection services) method, do services.AddHostedService<StrideGameService>();
+ 2. In your `ConfigureServices(IServicesCollection services)` method, do `services.AddHostedService<StrideGameService>();`
 
 A more up to date copy of StrideGameService.cs may be here: 
 https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/StrideGameService.cs

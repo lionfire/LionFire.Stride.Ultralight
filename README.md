@@ -43,3 +43,13 @@ See StrideGameService.cs
 
 A more up to date copy of StrideGameService.cs may be here: 
 https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/StrideGameService.cs
+
+## Blazor object inspector
+
+The razor component for the fledgling .NET object inspector/explorer I created can be found here:
+
+https://github.com/lionfire/Core/blob/master/src/LionFire.Blazor.Components.MudBlazor/ObjectExplorer.razor
+
+
+
+

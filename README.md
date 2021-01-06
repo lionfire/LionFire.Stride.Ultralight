@@ -7,12 +7,13 @@ Working:
  - Mouse clicks (left-click only)
  
 Partially working:
- - colors in Ultralight are a little bit off
+ - colors in Ultralight are a little bit off.  I'm not sure how perfect of a match to expect.
 
 TODO:
  - Pass through clicks on transparent areas of the browser window to the 3D world
  - Keyboard input
- - Middle and right mouse clicks: it looks like these will require changes to Stride's input code, which currently only passes left clicks up to the Stride UI's ImageElement pointer events.
+ - Scroll input
+ - Middle and right mouse clicks: it looks like these will require changes to Stride's input code, which currently only passes left clicks up to the Stride UI's ImageElement touch events.
 
 ## Screenshot
 

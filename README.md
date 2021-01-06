@@ -1,4 +1,4 @@
-# LionFire.Stride.Ultralight
+# LionFire.Stride.Ultralight (with Blazor Server)
 
 I have .NET 5.0 + Blazor Server + Ultralig.ht working as a proof of concept inside Stride (stride3d.net) game engine on Windows.  This repo doesn't have a complete working example (feel free to create one) but contains some key files and this README refers you to more detailed info.
 
@@ -14,6 +14,7 @@ TODO:
  - Keyboard input
  - Scroll input
  - Middle and right mouse clicks: it looks like these will require changes to Stride's input code, which currently only passes left clicks up to the Stride UI's ImageElement touch events.
+ - Require a cookie / auth token to be sent via HTTP when talking to Blazor Server, so that only the Stride Game process can talk to its in-process web server.
 
 ## Screenshot
 

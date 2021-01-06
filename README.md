@@ -5,6 +5,7 @@ I have .NET 5.0 + Blazor Server + Ultralig.ht working as a proof of concept insi
 Working:
  - Transparency
  - Mouse clicks (left-click only)
+ - Toggle the ultralight browser visibility on/off with F10 key (perhaps useful for a debug UI)
  
 Partially working:
  - colors in Ultralight are a little bit off.  I'm not sure how perfect of a match to expect.

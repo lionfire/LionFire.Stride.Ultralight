@@ -28,6 +28,8 @@ Based off of this repo -- refer to it for instructions: https://github.com/makot
 
 Here's my customized C# file that supports Microsoft.Extensions.Logging and Mouse/Keyboard Input:  [UltralightUIScript.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/StrideGame.Game/Code/UltralightUIScript.cs)
 
+More up to date version lives here: [UltralightUIScript.cs](https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/Ultralight/UltralightUIScript.cs)
+
 ## Stride UI fix
 
 By default, as of now, Stride's postproessing effects are applied to the UI, which makes it look bad.

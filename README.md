@@ -9,7 +9,7 @@ Working:
  
 Partially working:
  - colors in Ultralight are a little bit off.  I'm not sure how perfect of a match to expect.
- - Keyboard input: character keys only.  I don't know how use Ultralight API to do other keys (I tried but it crashes.)
+ - Keyboard input
 
 TODO:
  - Pass through clicks on transparent areas of the browser window to the 3D world
@@ -54,6 +54,8 @@ The razor component for the fledgling .NET object inspector/explorer I created c
 
 https://github.com/lionfire/Core/blob/master/src/LionFire.Blazor.Components.MudBlazor/ObjectExplorer.razor
 
+## Stride keyboard mapping
 
+See [StrideKeyConversion.cs](https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/Input/StrideKeyConversion.cs)
 
 

@@ -1,6 +1,6 @@
-// Based on https://github.com/makotech222/Ultralight-Stride3d_Integration (MIT License)
-// License for this file: MIT License
-// A more up to date version of this file may exist in a private repo.  If interested in a newer version, contact me (Jared Thirsk)
+// OUT OF DATE - see latest version here: https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/Ultralight/UltralightUIScript.cs
+
+// Based on https://github.com/makotech222/Ultralight-Stride3d_Integration -- see its README for more info
 
 //#define TRACE_TouchEvents
 using System;

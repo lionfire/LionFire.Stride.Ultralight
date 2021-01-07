@@ -26,7 +26,7 @@ TODO:
 
 Based off of this repo -- refer to it for instructions: https://github.com/makotech222/Ultralight-Stride3d_Integration
 
-Here's my customized C# file that supports Microsoft.Extensions.Logging and Mouse Input:  [UltralightUIScript.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/StrideGame.Game/Code/UltralightUIScript.cs)
+Here's my customized C# file that supports Microsoft.Extensions.Logging and Mouse/Keyboard Input:  [UltralightUIScript.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/StrideGame.Game/Code/UltralightUIScript.cs)
 
 ## Stride UI fix
 

@@ -6,6 +6,7 @@ Working:
  - Transparency
  - Mouse clicks (left-click only)
  - Toggle the ultralight browser visibility on/off with F10 key (perhaps useful for a debug UI)
+ - Auto-reload via Livesharp (not a free product), a bit crude
  
 Partially working:
  - colors in Ultralight are a little bit off.  I'm not sure how perfect of a match to expect.
@@ -28,7 +29,7 @@ Based off of this repo -- refer to it for instructions: https://github.com/makot
 
 Here's my customized C# file that supports Microsoft.Extensions.Logging and Mouse/Keyboard Input:  [UltralightUIScript.cs](https://github.com/lionfire/LionFire.Stride.Ultralight/blob/main/StrideGame.Game/Code/UltralightUIScript.cs)
 
-More up to date version lives here: [UltralightUIScript.cs](https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/Ultralight/UltralightUIScript.cs)
+**More up to date version lives here:** [UltralightUIScript.cs](https://github.com/lionfire/Core/blob/master/src/LionFire.Hosting.Stride/Ultralight/UltralightUIScript.cs)
 
 ## Stride UI fix
 
